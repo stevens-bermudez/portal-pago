@@ -5,24 +5,6 @@ function App() {
 
   return (
     <>
-    <html lang="en">
-      <head>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-        <link rel="stylesheet" href="./styles/style.css" />
-        <title></title>
-        <style>
-          {`.attribution {
-              font-size: 11px;
-              text-align: center;
-            }
-            .attribution a {
-              color: hsl(228, 45%, 44%);
-            }`}
-        </style>
-      </head>
-      <body>
         <main className="container">
           <section className="back__container">
             <div className="card">
@@ -71,14 +53,6 @@ function App() {
             <button className="thanks-section_button">Continue</button>
           </section>
         </main>
-
-        <div className="attribution">
-          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>.
-          Coded by <a href="#">Michael Bermudez</a>.
-        </div>
-        <script src="/js/main.js"></script>
-      </body>
-    </html>
     </>
   )
 }
