@@ -40,7 +40,7 @@ function App() {
                   <div className="form__input-mm-error error">only character type date</div>
                   <div className="form__input-yy-error error">only character type date</div>
                 </div>
-                <div className="form__input-cvc--error error">only character type "ABC 123"</div>
+                <div className="form__input-cvc--error error">only character type ABC 123</div>
               </div>
               <input type="submit" value="confirm" className="form_submit" id="form_submit" />
             </form>
@@ -49,7 +49,7 @@ function App() {
           <section className="thanks-section">
             <img className="thanks-section_img" src="/images/icon-complete.svg" alt="complete icon" />
             <h1 className="thanks-section_title">Thank you!</h1>
-            <p className="thanks-section_text"> We've added your card details </p>
+            <p className="thanks-section_text"> We ve added your card details </p>
             <button className="thanks-section_button">Continue</button>
           </section>
         </main>
