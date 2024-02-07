@@ -55,7 +55,7 @@ body {
   background-image: url(/images/bg-card-front.png);
   background-size: contain;
   background-repeat: no-repeat;
-  z-index: 2;
+ 
   letter-spacing: 5px;
   
 
@@ -138,7 +138,7 @@ body {
 .card-back {
   margin-left: 10%;
   width: 300px;
-  height:500px;
+  height: 250px;
   color: white;
   padding: 20px;
   background-image: url(/images/bg-card-back.png);
