@@ -55,7 +55,7 @@ body {
   background-image: url(/images/bg-card-front.png);
   background-size: contain;
   background-repeat: no-repeat;
- 
+  z-index: 2;
   letter-spacing: 5px;
   
 
@@ -138,7 +138,7 @@ body {
 .card-back {
   margin-left: 10%;
   width: 300px;
-  height: 250px;
+  height:500px;
   color: white;
   padding: 20px;
   background-image: url(/images/bg-card-back.png);
@@ -244,17 +244,41 @@ body {
   cursor: pointer;
 }
 
-.error {
+.error_show {
   color: rgb(230, 67, 67);
-  margin: -20px 0 10px;
+  margin: -20px 0 4px;
   font-size: 0.9em;
+  justify-content: space-between;
+
+}
+
+
+.input-container {
+
+  display: flex;
+  gap: 0 10px;
+  margin-top: auto;
+}
+.error__show_ {
+  position: absolute;
+  display: flex;
+  color: rgb(230, 67, 67);
+  font-size: 0.9em;
+  left: 100px; 
+  margin-top: 50px;
   justify-content: space-between;
   display: none;
 }
 
-.error.show {
-  display: block;
+.error_show_ {
+  position: absolute;
+  color: rgb(230, 67, 67);
+  font-size: 0.9em;
+  left: 3px; 
+  margin-top: 50px;
+  
 }
+
 
 .thanks-section{
   display: none;
