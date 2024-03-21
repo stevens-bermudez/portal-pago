@@ -246,7 +246,7 @@ body {
   margin: -20px 0 10px;
   font-size: 0.9em;
   justify-content: space-between;
- 
+  
 }
 .input-container {
   position: relative;
@@ -263,9 +263,9 @@ body {
   margin-top: 5px; 
 }
 .thanks-section {
-  display: none;
   margin: auto;
   width: 375px;
+  margin-bottom: 100px;
 }
 
 .form__error-container {
